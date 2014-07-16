@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+    
+    <fragment
+        android:id="@+id/fragment_timeline"
+        android:name="co.edu.udea.compumovil.grupo12.yamba6.TimeLineFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"/>
+    
+    <fragment android:id="@+id/fragment_details"
+		android:name="co.edu.udea.compumovil.grupo12.yamba6.DetallesFragment"
+		android:layout_width="0dp"
+		android:layout_height="match_parent"
+		android:layout_weight="1"
+		/>
+
+</LinearLayout>

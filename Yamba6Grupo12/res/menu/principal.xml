@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="co.edu.udea.compumovil.grupo12.yamba3.PrincipalActivity" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+    
+    <item android:id="@+id/action_subir" 
+        android:title="@string/titulosubir" 
+        android:showAsAction="always|withText"
+        android:icon="@android:drawable/ic_menu_add">
+        
+    </item>
+    <item android:id="@+id/action_recargar" 
+        android:title="@string/actionrecargar" 
+        android:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_rotate">
+        
+    </item>
+    
+    <item android:id="@+id/action_limpiar" 
+        android:title="@string/actionlimpiar" 
+        android:icon="@android:drawable/ic_menu_delete">
+        
+    </item>
+    	
+    
+	
+	
+    
+</menu>
