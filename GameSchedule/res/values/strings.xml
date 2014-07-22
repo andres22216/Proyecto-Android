@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GameSchedule</string>
+    <string name="action_settings">Settings</string>
+    <string name="botonVerEventos">Ver Eventos</string>
+    <string name="botonRegistrarse">Registrarse</string>
+    <string name="botonNuevoEvento">Nuevo Evento</string>
+    <string name="textSoloRegistrados">(Solamente Usuarios Registrados)</string>
+
+</resources>
