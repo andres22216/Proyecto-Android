@@ -1,17 +1,45 @@
 package com.compumovil.gameschedule;
 
-import android.support.v7.app.ActionBarActivity;
+
+import android.app.Activity;
+import android.content.Intent;
+import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
 
 
-public class ActividadPrincipal extends ActionBarActivity {
+public class ActividadPrincipal extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_actividad_principal);
+        
+        //Iniciamos la base de datos SQLite
+        DbHelper helper = new DbHelper(this);
+        SQLiteDatabase db = helper.getWritableDatabase();
+        
+        //capturamos los objetos graficos
+        
+        Button botonReg = (Button)findViewById(R.id.botonRegistrarse);
+        String vlor = (String) botonReg.getText();
+        Log.d("sera", vlor);
+        
+        botonReg.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				Intent intent = new Intent(ActividadPrincipal.this,ActividadRegistro.class);
+				startActivity(intent);
+				// TODO Auto-generated method stub
+				
+			}
+		});
     }
 
 

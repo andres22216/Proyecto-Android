@@ -47,7 +47,7 @@
         android:text="@string/botonNuevoEvento" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/botonRegistrarse"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/button3"

@@ -1077,7 +1077,8 @@ containing a value of this type.
         public static final int abc_textfield_searchview_holo_light=0x7f020054;
         public static final int abc_textfield_searchview_right_holo_dark=0x7f020055;
         public static final int abc_textfield_searchview_right_holo_light=0x7f020056;
-        public static final int ic_launcher=0x7f020057;
+        public static final int file1=0x7f020057;
+        public static final int ic_launcher=0x7f020058;
     }
     public static final class id {
         public static final int action_bar=0x7f05001c;
@@ -1095,8 +1096,8 @@ containing a value of this type.
         public static final int activity_chooser_view_content=0x7f050025;
         public static final int always=0x7f05000b;
         public static final int beginning=0x7f050011;
+        public static final int botonRegistrarse=0x7f050040;
         public static final int button1=0x7f05003d;
-        public static final int button2=0x7f050040;
         public static final int button3=0x7f05003f;
         public static final int checkbox=0x7f05002d;
         public static final int collapseActionView=0x7f05000d;
@@ -1198,10 +1199,12 @@ containing a value of this type.
         public static final int abc_search_view=0x7f030016;
         public static final int abc_simple_decor=0x7f030017;
         public static final int activity_actividad_principal=0x7f030018;
-        public static final int support_simple_spinner_dropdown_item=0x7f030019;
+        public static final int activity_actividad_registro=0x7f030019;
+        public static final int support_simple_spinner_dropdown_item=0x7f03001a;
     }
     public static final class menu {
         public static final int actividad_principal=0x7f0c0000;
+        public static final int actividad_registro=0x7f0c0001;
     }
     public static final class string {
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 
@@ -1249,7 +1252,9 @@ containing a value of this type.
         public static final int botonNuevoEvento=0x7f0a0011;
         public static final int botonRegistrarse=0x7f0a0010;
         public static final int botonVerEventos=0x7f0a000f;
+        public static final int hello_world=0x7f0a0014;
         public static final int textSoloRegistrados=0x7f0a0012;
+        public static final int title_activity_actividad_registro=0x7f0a0013;
     }
     public static final class style {
         /** 

@@ -7,5 +7,7 @@
     <string name="botonRegistrarse">Registrarse</string>
     <string name="botonNuevoEvento">Nuevo Evento</string>
     <string name="textSoloRegistrados">(Solamente Usuarios Registrados)</string>
+    <string name="title_activity_actividad_registro">ActividadRegistro</string>
+    <string name="hello_world">Hello world!</string>
 
 </resources>
