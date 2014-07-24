@@ -8,15 +8,15 @@ create table usuario(
 );
 
 create table evento(
-	_id integer primary key autoincrement,
+	_id integer primary key auto_increment,
 	nombre varchar(250) not null,
 	ciudad varchar(250) not null,
 	fechaInicio date not null,
 	fechaFinalizacion date not null,
 	contacto varchar(250),
-	latitud varchar(250) not null;
-	longitud varchar(250) not null;
+	latitud varchar(250) not null,
+	longitud varchar(250) not null,
 	descripcion text,
-	idUsuario integer not null;
+	idUsuario integer not null,
 	constraint foreign key (idUsuario) references usuario (_id)
 );
